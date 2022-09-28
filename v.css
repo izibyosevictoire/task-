@@ -1,0 +1,89 @@
+.html .body {
+    margin: 0px;
+    width: 100%;
+    background: url('../MY\ P/iz.jpg')no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    height: 100px;
+    z-index: -1;
+    opacity: .8;
+}
+.home{
+    background: url('../MY\ P/iz.jpg');
+    background-size: cover;
+    min-height: 120vh;
+    height: 200vh;
+}
+.home h3{
+    margin-top: 150px;
+    margin-left: 350px;
+}
+.header {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.089);
+    align-items: flex-end;
+    position: static;
+    padding: 5px 5px;
+    margin: 1px;
+    justify-content: space-between;
+}
+ul {
+    display:flex;
+    justify-content:space-between;
+    padding: 10px;
+    
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    padding-left: 80px;
+    width: 30%;
+}
+
+.header ul li {
+    justify-content: center;
+    width: 20px;
+    padding-left: 0%;
+    color: black;
+    display: flex;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    background-color: whitesmoke;
+}
+.header ul li {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px 30px;
+    margin-left: 20px;
+}
+.pleasure h3{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.login {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    border: 2px solid rgb(252, 249, 249);
+    margin-left: 90px;
+    padding: 30px;
+    margin-top: 25px;
+    border: 3ch; 
+}
+.login div button {
+    background-color: rgba(0, 0, 0, 0.541);
+
+}
+footer{
+    text-align: center;
+  padding: 3px;
+  background-color:rgba(0, 0, 0, 0.288);
+  color: white;
+}

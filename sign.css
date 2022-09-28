@@ -1,0 +1,93 @@
+body,
+html {
+    margin: 0px;
+    width: 100%;
+    
+}
+.home{
+    background: url('../MY\ P/iz.jpg');
+    background-size: cover;
+    min-height: 120vh;
+    height: 200vh;
+}
+.home h3{
+    margin-top: 150px;
+    margin-left: 350px;
+}
+.header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.089);
+    align-items: flex-end;
+    position: static;
+    padding: 5px 5px;
+    margin: 1px;
+    justify-content: space-between;
+}
+ul {
+display:flex;
+justify-content:space-between;
+padding: 10px;
+
+}
+.header ul {
+list-style: none;
+display: flex;
+padding-left: 80px;
+width: 30%;
+}
+
+.header ul li {
+justify-content: center;
+width: 20px;
+padding-left: 0%;
+color: black;
+display: flex;
+}
+
+.header ul li a {
+text-decoration: none;
+color: black;
+padding: 5px 20px;
+background-color: whitesmoke;
+}
+.header ul li {
+text-decoration: none;
+color: aliceblue;
+padding: 3px 30px;
+margin-left: 20px;
+}
+.signup{
+
+    display: inline-block;
+   padding-left: 90px;
+   padding-top: 60px;
+}
+.signup div button {
+    width: 100px;
+    gap: 20px;
+    height: 20px;
+    background: #10913b;
+    border-radius: 30PX;
+    margin-top: 20px;
+    border: #10913b;
+}
+.signup div button a{
+    text-decoration: none;
+    color:black ;
+    font-weight: bold;
+}
+.signup div input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+}
+.home h4{
+    padding-left: 90px;
+}
+footer{
+    text-align: center;
+  padding: 3px;
+  background-color:rgba(0, 0, 0, 0.363);
+  color: white;
+}
